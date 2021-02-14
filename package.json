@@ -1,0 +1,21 @@
+{
+    "name": "inventory-api-v2-adddb",
+    "version": "0.1.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "heroku"
+    ],
+    "author": "Tessa Seiders",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.4",
+        "mongoose": "^5.11.15"
+    }
+}
